@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Piedra, Papel, Tijeras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel y Tijeras</h1>
+        <p>Selecciona tu jugada:</p>
+
+        <div class="eleccion">
+            <button class="elecciones" data-choice="piedra" >🪨 Piedra</button>
+            <button class="elecciones" data-choice="papel">📄 Papel</button>
+            <button class="elecciones" data-choice="tijeras">✂️ Tijeras</button>
+        </div>
+
+        <div class="resultado">
+            <p id="miEleccion">Mi elección: <span></span></p>
+            <p id="ordenadorEleccion">Elección NPC: <span></span></p>
+            <h2 id="resultado-juego">Resultado: <span></span></h2>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
